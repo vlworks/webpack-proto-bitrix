@@ -1,13 +1,14 @@
 {
   "name": "tc-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "bitrix template",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack && webpack serve"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Vladislav Lyakishev <vlad169@yandex.ru>",
+  "license": "MIT",
   "dependencies": {
     "aos": "^2.3.4",
     "inputmask": "^5.0.7",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@types/aos": "^3.0.4",
     "@types/inputmask": "^5.0.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
     "mini-css-extract-plugin": "^2.6.0",
@@ -24,6 +26,10 @@
     "ts-loader": "^9.2.8",
     "typescript": "^4.6.3",
     "webpack": "^5.71.0",
-    "webpack-cli": "^4.9.2"
-  }
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "browserslist": [
+    "last 1 years, > 1%, not dead"
+  ]
 }
