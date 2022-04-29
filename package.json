@@ -12,7 +12,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "inputmask": "^5.0.7",
-    "swiper": "^8.0.7"
+    "swiper": "^8.1.0"
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
